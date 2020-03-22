@@ -56,6 +56,13 @@ ___
 
 ## 要求
 
+关于本次作业的提交方式，请看 [这个](https://seriouszyx.github.io/2019/03/08/%E4%BD%BF%E7%94%A8Forking%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%8F%90%E4%BA%A4%E4%BD%9C%E4%B8%9A.html) 和 [这个](https://blog.csdn.net/weixin_43645287/article/details/105026071
+)
+
+作业地址：[Here](https://github.com/Chenjiang-circle/515-Java-Beginners)
+forking 项目，然后完成作业。
+
+<span style='color:red'>需要提醒一下：</span>
 将项目克隆到本地之后，在 `Assignment-Answer` 文件夹下，创建属于自己的文件夹，如 `JavaLover`。然后将 `Assignmen` 文件夹下的 `FirstWeek` 文件拷贝到自己创建的文件夹下。然后就可以 coding 了。
 
 作业时间为一周，即下周日晚上11点前。
