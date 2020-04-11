@@ -1,2 +1,2 @@
 # 515-Java-Beginners
-Stay hangry, stay foolish.
+Stay hungry, stay foolish.
