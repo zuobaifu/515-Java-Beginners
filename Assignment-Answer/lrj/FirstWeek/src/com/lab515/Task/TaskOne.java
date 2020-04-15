@@ -1,7 +1,7 @@
 package com.lab515.Task;
 import java.util.Scanner;
 /**
- * è¯´åè¯ï¼ˆSay the oppositeï¼‰
+ * Ëµ·´»°£¨Say the opposite£©
  */
 public class TaskOne {
 
