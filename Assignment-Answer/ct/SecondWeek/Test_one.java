@@ -3,12 +3,12 @@ package com.lab515.Task;
 import java.util.Scanner;
  
 public class Test_one {
-//-----¹Ì¶¨µÄË÷Òı---------
+//-----å›ºå®šçš„ç´¢å¼•---------
 	static int rowNumTop=0;
 	static int colNumLeft=-1;
 	static int rowNumBottom;
 	static int colNumRight;
-//------¸Ä±äµÄË÷Òı--------
+//------æ”¹å˜çš„ç´¢å¼•--------
 	static int colNumTop=1;
 	static int rowNumRight=1;
 	static int colNumBottom;
@@ -19,12 +19,12 @@ public class Test_one {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		int n;
-		System.out.print("ÇëÊäÈëÂİĞı¾ØÕóµÄ³¤¶È:");
+		System.out.print("è¯·è¾“å…¥èºæ—‹çŸ©é˜µçš„é•¿åº¦:");
 		n =input.nextInt(); 
 		int[][] num = new int[n][n];
 		int z;
 		int d=1;
-		//±àÀú
+		//éå†
 		 colNumRight=n;
 		 rowNumBottom=n;
 		 rowNumLeft=n-2;
@@ -42,7 +42,7 @@ public class Test_one {
 			 else
 			 {
 				 z=0;
-				 for(int k=0;k<2;k++)//Ñ­»·×ªÏò
+				 for(int k=0;k<2;k++)//å¾ªç¯è½¬å‘
 				 { 
 					z++;
 					seekIndex(num,i,z,d);			
@@ -50,7 +50,7 @@ public class Test_one {
 				 d++;
 			 }
 		}
-		//Êä³ö
+		//è¾“å‡º
 		for(int[] sum : num)
 		{
 			for(int sum1 : sum)
@@ -60,18 +60,18 @@ public class Test_one {
 		}
 		
 	}
-	//ÕÒ²»±äµÄË÷Òı
+	//æ‰¾ä¸å˜çš„ç´¢å¼•
 	public static void seekIndex(int[][] a,int n,int m,int judge)
 	{
 		if(m==1)
 		{
 			if (judge%2==0)
-			{//¼õ
+			{//å‡
 				 colNumLeft =colNumLeft+1;
 				assignmentCol(a,colNumLeft,1, n);
 			}
 			else
-			{//¼Ó
+			{//åŠ 
 				colNumRight =colNumRight-1;
 				assignmentCol(a,colNumRight,2,n);
 			}
@@ -79,19 +79,19 @@ public class Test_one {
 		else if (m==2)
 		{
 			 if(judge%2==0)
-			 {//¼Ó
+			 {//åŠ 
 				 rowNumTop =rowNumTop+1;
 				 assignmentRow(a,rowNumTop,1,n);
 			 }
 			 else
-			 {//¼õ
+			 {//å‡
 				 rowNumBottom =rowNumBottom-1;
 				 assignmentRow(a,rowNumBottom,2,n);
 			 }
 		}
 	}
 	
-	//¸³Öµ
+	//èµ‹å€¼
 	public static void assignmentRow(int[][] a,int x,int n,int m)
 	{
 		switch(n)
